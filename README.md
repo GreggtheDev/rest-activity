@@ -1,1 +1,11 @@
-# rest-activity
+- **HTML File**:
+  - The HTML file sets up the basic structure of the page with a title, buttons, and a div to display results.
+  - Each button is given a unique ID to identify it and attach event listeners later.
+  - A link to the JavaScript file (`script.js`) is included at the bottom to handle the API interactions.
+
+- **JavaScript File**:
+  - The JavaScript file waits for the DOM to be fully loaded before executing any code.
+  - It defines functions to clear previous results and render new JSON responses.
+  - Event listeners are attached to each button to handle clicks and perform the respective API actions using the `fetch` function.
+  - Each `fetch` call specifies the URL and method (GET, POST, PUT, PATCH, DELETE) needed to perform the desired action.
+  - Responses from the API are converted to JSON and displayed in the `result` div.
